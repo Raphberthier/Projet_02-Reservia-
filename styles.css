@@ -1,12 +1,18 @@
 /* en tete*/
+header{ display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+}
+
 .logo {
 
 }
 
-.Menu{
+.Menu{ list-style-type: none;
 
 }
 
 .Recherche{
-    
+
 }
