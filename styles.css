@@ -5,14 +5,35 @@ header{ display: flex;
 
 }
 
-.logo {
+.logo img { width: 93px;
+    height: 28px;
 
 }
 
-.Menu{ list-style-type: none;
-
+.Menu { list-style-type: none;
+       display: flex;
+       justify-content: space-between;
+       
 }
 
 .Recherche{
 
+}
+
+
+body{ font-family: Raleway;
+  
+}
+
+/*filtre*/
+
+.listefiltre  {
+    display: flex;
+}   
+strong {
+    display: flex;
+    
+    border: solid #DEEBFF 2px;
+    border-radius: 20px;
+    padding: 5px;
 }
