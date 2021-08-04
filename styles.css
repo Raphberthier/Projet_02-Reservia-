@@ -105,32 +105,34 @@ button {
 
 .listefiltre  {
     display: flex;
+    width: 43%;
+    justify-content: space-around;
     
-    padding-right: 20px;
+    
     align-items: center;
     margin-bottom: 20px;
 }   
 strong {
     display: flex;
+    padding-right: 10px;
+    align-items: center;
      border: solid #F2F2F2 2px ;
     border-radius: 20px;
-    border-left: 30px;
-    padding: 5px  ;
+    border-left: 1px;
+   
+     
     
-    
-}
-.iconefiltre i { padding: 5px;
-    border-radius: 100%;
-    border: #DEEBFF solid ;
-    background-color: #DEEBFF;
-    font-size: small;
     
 }
 
-.iconefiltre i {
+
+.listefiltre i {
     color:#0065FC ;
     display: flex;
-    
+    border-radius: 100%;
+    background-color:#DEEBFF ;
+    padding: 7px;
+   
 }
 
 .loge {
@@ -138,6 +140,10 @@ strong {
     padding-bottom: 20px;
     font-style: normal;
 
+}
+.loge i {
+    padding: 5px;
+    color: #0065FC;
 }
 /*coprs de  page*/
 
@@ -257,7 +263,7 @@ h3 {
 .asideimg {
     object-fit: cover;
     height: 100%;
-    width: 40%;
+    width: 35%;
     border-top-left-radius : 10px;
     border-bottom-left-radius:10px ;
 }
