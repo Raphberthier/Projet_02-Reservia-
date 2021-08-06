@@ -19,9 +19,9 @@
         <!--Navigation-->
         <nav class="Menu">
             <ul class="Menu">
-                <li><a href="#">Hébergement</a></li>
-                <li><a href="#">Activités</a></li>
-                <li><a style="color: #0065FC;"  href="#">S'inscrire</a></li>
+                <li><a href="#hebergement">Hébergement</a></li>
+                <li><a href="#activiter">Activités</a></li>
+                <li ><a class="inscrip"  href="#">S'inscrire</a></li>
             </ul>
         </nav>
     </header>
@@ -41,12 +41,12 @@
                 <div class="listefiltre">
                     <div class="textefiltre">Filtres</div>
                     
-                    <strong><i style="color: ;" class="fas fa-money-bill-wave"></i>Economique</strong>
-                    <strong><i class="fas fa-child"></i>Familiale</strong>
+                    <strong><div class="monicone"><i class="fas fa-money-bill-wave"></i></div>Economique</strong>
+                    <strong><div class="monicone"><i class="fas fa-child"></i></div>Familiale</strong>
                     
-                    <strong><i class="fas fa-heart"></i>Romantique</strong>
+                    <strong><div class="monicone"><i class="fas fa-heart"></i></div>Romantique</strong>
                   
-                    <strong><i class="fas fa-dog"></i>Animaux autorisés</strong>               
+                    <strong><div class="monicone"><i class="fas fa-dog"></i></div>Animaux autorisés</strong>               
                 </div>            
                 <div class="loge"> <i class="fas fa-info" style="border-radius: 100%;border:solid #dfdfdf 1px"></i>  Plus de 500 logements sont disponibles dans cette ville</div>
 
@@ -55,7 +55,7 @@
                 <section class="hotels">
 
                 <div class="gridlog">
-                    <h2>Hébergements à Marseille</h2>
+                    <h2 id="hebergement">Hébergements à Marseille</h2>
                 <div class="logements">
 
                    <a class="box" href="#">
@@ -194,43 +194,50 @@
                 </section>
                 <section class="activites">
                     <div class="h2act">
-                        <h2 class="activ">Activités à Marseille</h2> 
+                        <h2 class="activ" id="activiter">Activités à Marseille</h2> 
                     </div>
                     <div class="contenent">
                         <div class="boxa">
-                            <a class="act" href="#">
+                            <a  href="#">
                                 <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                                 <h3>Vieux Port</h3></a>
+                            
                         </div>
-                        <div class="boxa">
-                            <a class="act" href="#">
-                                <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                        <div class="boxa2">
+                            <div class="act2">
+                            <a  href="#">
+                                <img  class="imgact1" src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                                 <h3>Fort de pomègues</h3>
-                            </a>
-                        </div>
-                        <div class="boxa">
-                            <a class="act">
+                             </a>
+                            </div>
+                            <div class="act3">
+                        <a >
                                 <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
                                 <h3>îles du Frioul</h3>
-                            </a>
+                            </a></div>
                         </div>
-                        <div class="boxa">
-                            <a class="act">
+                        
+                        <div class="boxa3">
+                            
+                            <a >
                                 <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                                 <h3>Parc National des Calanques</h3>
                             </a>
+                            
                         </div>
-                        <div class="boxa">
-                            <a class="act">
+                        <div class="boxa4">
+                        <div class="act5">
+                            <a >
                                 <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                                 <h3>Notre-Dame-de-La-Garde</h3>
-                            </a>
+                            </a> 
                         </div>
-                        <div class="boxa">
-                            <a class="act">
+                        <div class="act6">
+                            <a >
                                 <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
                                 <h3>Parc Longchamp</h3>
                             </a>
+                        </div>
                         </div>
                     </div>
                     
