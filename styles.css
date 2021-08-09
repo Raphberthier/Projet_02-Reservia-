@@ -9,10 +9,19 @@ body{
     
 }
 
+
 a{
     text-decoration: none;
     color: black;
+    
+    
 }
+ a {
+     transition: transform .1s;
+ }
+ a:hover{
+     transform: scale(1.5);
+ }
 
 
 /* en tete*/
@@ -116,6 +125,13 @@ button {
 
 
 /*filtre*/
+@media screen and (max-width: 1024px){
+    .listefiltre{
+        display: flex;
+        
+    }
+}
+    
 
 .listefiltre  {
     display: flex;
@@ -255,6 +271,11 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: 0px 0px 5px 10px;
+}
+
+.affiche{
+    margin-top: 10px;
+    list-style-type: none;
 }
 /*aside*/
 
