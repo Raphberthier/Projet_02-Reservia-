@@ -9,14 +9,14 @@ body{
     
 }
 
-
 a{
     text-decoration: none;
     color: black;
     
     
 }
- a {
+ 
+a {
      transition: transform .1s;
  }
  a:hover{
