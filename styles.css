@@ -20,22 +20,17 @@ a{
      transition: transform .1s;
  }
  a:hover{
-     transform: scale(1.5);
+     transform: scale(1.1);
+ }
+ .fas .fa-star .stargris{
+     color: #F2F2F2;
  }
 
 
 /* en tete*/
 
-@media screen and (max-width: 1024px)
-{
-    header{display: flex;
-    flex-direction: column;}
-  
-
-    
-       
-}
-header{ display: flex;
+header
+{ display: flex;
         justify-content: space-between;
         align-items: center;
 
@@ -53,8 +48,11 @@ header{ display: flex;
        
 }
 li:hover{
-border-top:solid #0065FC 3px ;
+border-top:solid #0065FC 2px ;
 zoom: 0%;
+}
+ul.Menu{
+    margin-top: 0px;
 }
 li{
     padding: 20px;
@@ -276,7 +274,11 @@ h3 {
 .affiche{
     margin-top: 10px;
     list-style-type: none;
-}
+  }
+  .affiche:hover{
+      transform: scale(1.01);
+  }
+
 /*aside*/
 
 .popul{
