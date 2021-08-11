@@ -4,10 +4,7 @@
     
 }
 
-body{
-    margin: 0px 50px 0px 50px;
-    
-}
+
 
 a{
     text-decoration: none;
@@ -31,9 +28,9 @@ a {
 
 header
 { display: flex;
-        justify-content: space-between;
-        align-items: center;
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px 0px 75px;
 }
 
 .logo img { width: 93px;
@@ -70,6 +67,7 @@ li{
     height: 30px;
     width: 275px;
     margin-bottom: 20px;
+    margin-left: 75px;
     
     
 
@@ -103,14 +101,16 @@ p .boutonrech{
 }
 .Recherche p {
     margin-top: 0px;
-    
+    margin-left: 75px;
   
     
 }
 .Recherche h2{
     
     margin-bottom: 0px;
+    margin-left: 75px;
 }
+
 button {
     
     background-color:#0065FC ;
@@ -135,7 +135,7 @@ button {
     display: flex;
     
     
-    
+    margin-left: 75px;
     align-items: center;
     margin-bottom: 20px;
 }   
@@ -179,6 +179,7 @@ button {
     font-size: small;
     padding-bottom: 20px;
     font-style: normal;
+    margin: 0px 50px 0px 75px;
 
 }
 .loge i {
@@ -202,6 +203,7 @@ section  {
     grid-template-columns: 66% 33%;
     border-radius: 20px;
     column-gap: 2rem;
+    margin: 0px 40px 0px 40px;
 }
 
 .gridlog {
@@ -351,10 +353,10 @@ h3 {
 }
                             /*activites*/
 .activites{
-    margin-top: 80px;
-    margin-bottom: 80px; 
+    
     display: flex;
     flex-direction: column;
+    margin: 80px 40px 80px 40px;
     
 }
 .contenent{ 
