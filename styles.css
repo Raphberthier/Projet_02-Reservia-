@@ -13,18 +13,10 @@ a {
   color: black;
 }
 
-a {
-  transition: transform 0.1s;
-}
-a:hover {
-  transform: scale(1.1);
-}
 .fas.fa-star.stargris {
-  color: #f2f2f2;
+  color: #e2e2e2;
 }
-p {
-  
-}
+
 
 /* en tete*/
 
@@ -148,6 +140,10 @@ button {
   border-radius: 20px;
   border-left: 1px;
   margin-right: 17px;
+  transition: transform 0.1s;
+}
+.strong:hover{
+  transform: scale(1.2);
 }
 .monicone {
   background-color: #deebff;
@@ -334,6 +330,9 @@ h3 {
   display: flex;
   height: 500px;
   width: 100%;
+}
+.contenent h3 {
+  margin-left: 15px;
 }
 .h2act {
   margin-left: 20px;
