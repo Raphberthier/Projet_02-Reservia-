@@ -5,7 +5,7 @@
   
 }
 body{
-  margin: 0px 15px 0px 10px;
+  margin: 0px ;
 }
 
 a {
@@ -16,7 +16,9 @@ a {
 .fas.fa-star.stargris {
   color: #e2e2e2;
 }
-
+p{
+  font-family: sans-serif;
+}
 
 /* en tete*/
 
@@ -98,9 +100,14 @@ li {
 }
 p .boutonrech {
   align-items: center;
+  font-size: small;
 }
 .boutonrech {
   color: white;
+  
+}
+button.searchInput{
+  font-size: small;
 }
 .Recherche p {
   margin-top: 0px;
@@ -168,12 +175,15 @@ button {
 .loge {
   font-size: small;
   padding-bottom: 20px;
-  font-style: normal;
+  font-family: sans-serif;
+  display: flex;
+  align-items: baseline;
  
 }
 .loge i {
   padding: 5px;
   color: #0065fc;
+  margin-right: 10px;
 }
 .loge .fas {
   border-radius: 50%;
@@ -432,16 +442,34 @@ footer {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  
 }
 Footer p {
   font-size: small;
 }
+
+.apropos{
+  margin-right: 350px;
+  margin-left: 25px;
+}
+.Nosheb{
+  margin-right: 350px;
+}
 /*responsive*/
 @media screen and (max-width: 1024px) {
+  body{
+    zoom: 2.3;
+  }
     header{
         display: flex;
         flex-wrap: wrap;
+    }
+    .logo{
+      height: auto;
+      margin-left: 1.6rem;
+    }
+    .logo img{
+      height: auto;
     }
      nav.Menu{
         display: flex;
@@ -454,16 +482,17 @@ Footer p {
     }
     .heberg{
         width: 50%;
-        border-bottom: #fff solid;
+        border-bottom: rgb(195, 195, 195) solid;
         text-align: center;
     }
     .heberg:hover{
         border-bottom: solid #0065fc;
         border-top: none;
+        color: #0065fc;
     }
     .activi{
         width: 50%;
-        border-bottom: #fff solid;
+        border-bottom: rgb(195, 195, 195) solid;
         text-align: center;
     }
     .activi:hover{
@@ -472,23 +501,43 @@ Footer p {
     }
     .inscription{
         position: absolute;
-        top: 0;
+        top: -6px;
         right: 0;
 
       }
     .inscription:hover{
       border: none;
     }
-        
-    
-    
-  .listefiltre {
+    .Recherche{
+      margin-left: 1.6rem;
+    }
+    .barrederecherche{
+      margin-left: 1.6rem;
+      zoom: 1.2;
+    }
+    .barrederecherche i{
+      height: 40px;
+    }
+    .searchInput{
+      height: 40px;
+    }
+    button.searcheInput{
+      height: 40px;
+    }
+    .listefiltre {
     display: flex;
     flex-wrap: wrap;
     width: 65%;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 1.6rem;
 
+  }
+  .familiale{
+    position: absolute;
+    top: 289px;
+    right: 21%;
+    left: 44%;
   }
   .strong{
     margin-bottom:5px ;
@@ -498,10 +547,20 @@ Footer p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    zoom: 1.1;
+    
+  }
+  .loge{
+    margin-left: 1.6rem;
+    font-size: larger;
+    display: flex;
+    align-items: baseline;
+    
+
   }
   .gridlog {
     background-color: white;
+    padding: 1.3rem;
   }
   section {
     display: flex;
@@ -513,27 +572,51 @@ Footer p {
     flex-direction: column;
     height: 100%;
   }
+  .box{
+    height: auto;
+  }
 
   .setimg {
     object-fit: cover;
     object-position: center;
-    height: 230px;
     width: 100%;
     max-width: 100%;
     max-height: 100%;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
+  .aside{
+    border-radius: 0px;
+    margin-right: 0px;
+    padding: 1.6rem;
+    border-radius: 0px;
+    margin-right: 0px;
+  }
+  .asidebox{
+    margin: 0px 0px 15px 0px;
+    border-radius: 20px;
+    padding: 6px;
+  }
+  .asideimg{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+  }
+  .popul{
+    margin: 0px;
+  }
 
   .activites .contenent {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 90%;
+    width: 96%;
+    align-items: center;
   }
 
   .activites {
-    margin: 0px 0px 60px 50px;
+    margin: 0px;
+    padding-left: 1.3rem;
   }
 
   .boxa,
@@ -542,6 +625,7 @@ Footer p {
   .boxa4 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .boxa img,
@@ -550,11 +634,29 @@ Footer p {
   .boxa4 img {
     height: 230px;
   }
+  
+  .act2{
+    margin-bottom: 20px;
+  }
 
   footer {
     display: flex;
     flex-direction: column;
     text-align: start;
-    font-size: x-large;
+    padding-left: 30px;
+    padding-bottom: 35px;
+  }
+  footer h3 {
+    width: max-content;
+  }
+  footer p {
+    font-size: initial;
+    width: max-content;
+    margin: 7px;
+  }
+  .apropos{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
   }
 }
