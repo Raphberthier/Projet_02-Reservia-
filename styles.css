@@ -147,6 +147,7 @@ button {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  zoom: 1.5;
 }
 .lesfiltres{
   display:flex;
@@ -205,6 +206,9 @@ button {
 }
 .textefiltre {
   margin-right: 25px;
+}
+.plusloge{
+  zoom: 1.5;
 }
 /*coprs de  page*/
 
@@ -576,6 +580,7 @@ Footer p {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 1.6rem;
+    zoom: 1;
 
   }
   .familiale{
