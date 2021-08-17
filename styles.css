@@ -81,19 +81,18 @@ li {
   display: flex;
   border: solid #f2f2f2 1px;
   border-radius: 10px;
-  height: 35px;
-  width: 275px;
+  height: 40px;
+  width: fit-content;
   margin-bottom: 20px;
   
 }
 .barrederecherche i {
   background-color: #f2f2f2;
-  border: solid #f2f2f2 1px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-bottom: 20px;
   color: black;
-  height: 35px;
+  height: 40px;
 
   display: flex;
   align-items: center;
@@ -104,7 +103,7 @@ li {
     color: black;
 }
 .searchInput {
-  height: 35px;
+  height: 40px;
   border: #f2f2f2 2px;
   align-items: center;
   font-size: initial;
@@ -114,6 +113,7 @@ p .boutonrech {
   align-items: center;
   font-size: small;
 }
+
 .boutonrech {
   color: white;
   
@@ -154,7 +154,7 @@ button {
 .strong {
   display: flex;
   flex-direction: row;
-  padding-right: 6px;
+  padding-right: 15px;
   align-items: center;
   border: solid #f2f2f2 2px;
   border-radius: 20px;
@@ -479,6 +479,11 @@ Footer p {
   margin-right: 350px;
 }
 /*responsive*/
+@media screen and (min-width: 1024px){
+  button.boutonicone{
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px) {
   body{
     zoom: 2.3;
@@ -542,14 +547,27 @@ Footer p {
       margin-left: 1.6rem;
       zoom: 1.2;
     }
-    .barrederecherche i{
+    .barrederecherche .boutonicone i{
       height: 40px;
+      background: transparent;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    padding-left: 7px
     }
     .searchInput{
       height: 40px;
     }
     button.searcheInput{
       height: 40px;
+    }
+    button.bouton1{
+      display: none;
+    }
+    button.boutonicone{
+      border-radius: 10px;
+      width: 40px;
     }
     .listefiltre {
     display: flex;
@@ -562,9 +580,9 @@ Footer p {
   }
   .familiale{
     position: absolute;
-    top: 294px;
-    right: 21%;
-    left: 44%;
+    top: 299px;
+    right: 17%;
+   
   }
   .strong{
     margin-bottom:10px ;
