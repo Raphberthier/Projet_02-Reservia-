@@ -605,8 +605,9 @@ Footer p {
     font-size: larger;
     display: flex;
     align-items: baseline;
-    
-
+  }
+  .plusloge{
+    zoom: 1;
   }
   .gridlog {
     background-color: white;
