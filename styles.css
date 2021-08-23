@@ -59,14 +59,14 @@ li {
 }
 .inscrip {
   color: #0065fc;
+  font-weight: 600;
 }
 .inscription {
   border-top: solid #fff 2px;
 }
 .pnav {
   margin: 0px;
-  font: message-box;
-  font-family: 'Raleway';
+  
 }
 .pnav:hover {
   color: #0065fc;
@@ -96,6 +96,7 @@ li {
 }
 .searchInput::placeholder {
   color: black;
+  font-weight: 600;
 }
 .searchInput {
   height: 40px;
@@ -139,6 +140,7 @@ button {
   align-items: center;
   margin-bottom: 20px;
   zoom: 1.4;
+  font-weight: 600;
 }
 .lesfiltres {
   display: flex;
@@ -153,6 +155,7 @@ button {
   border-left: 1px;
   margin-right: 17px;
   transition: transform 0.1s;
+  
 }
 .strong:hover {
   transform: scale(1.2);
