@@ -65,11 +65,12 @@ li {
 }
 .pnav {
   margin: 0px;
+  font: message-box;
+  font-family: 'Raleway';
 }
 .pnav:hover {
   color: #0065fc;
-  font: message-box;
-  font-family: 'Raleway';
+  
 }
 /*barre de recherche*/
 
